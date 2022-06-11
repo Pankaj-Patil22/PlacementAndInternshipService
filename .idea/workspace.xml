@@ -4,11 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="391df218-19c5-4947-a827-94913181a20d" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
+    <list default="true" id="391df218-19c5-4947-a827-94913181a20d" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlacementAndInternshipService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlacementAndInternshipService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oneacademy/placementandinternship/controller/PlacementCoordinatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oneacademy/placementandinternship/controller/PlacementCoordinatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oneacademy/placementandinternship/repository/CompanyEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oneacademy/placementandinternship/repository/CompanyEntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oneacademy/placementandinternship/service/PlacementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oneacademy/placementandinternship/service/PlacementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oneacademy/placementandinternship/service/PlacementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oneacademy/placementandinternship/service/PlacementServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/PlacementAndInternshipServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/PlacementAndInternshipServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/controller/PlacementCoordinatorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/controller/PlacementCoordinatorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/entity/CompanyEntity$CompanyEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/entity/CompanyEntity$CompanyEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/entity/CompanyEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/entity/CompanyEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/model/CompanyModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/model/CompanyModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/repository/CompanyEntityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/repository/CompanyEntityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/service/PlacementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/service/PlacementService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/service/PlacementServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oneacademy/placementandinternship/service/PlacementServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="com.haulmont.jpb.JpaRepository" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +88,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -64,6 +98,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Desktop/Project/PlacementAndInternshipService&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;81af4f1f1743d29aebf8d97810104402&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -80,6 +115,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="C:\Users\PC\Desktop\Project\PlacementAndInternshipService\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="C:\Users\PC\AppData\Roaming\JetBrains\IntelliJIdea2022.1\scratches\PlacementAndInternshipService-openapi.yaml" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,6 +144,10 @@
       <workItem from="1654633321970" duration="722000" />
       <workItem from="1654782579647" duration="5014000" />
       <workItem from="1654792422455" duration="4540000" />
+      <workItem from="1654797439044" duration="190000" />
+      <workItem from="1654840967500" duration="584000" />
+      <workItem from="1654842678811" duration="3311000" />
+      <workItem from="1654947680211" duration="6726000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1654632830107</created>
@@ -136,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654796745278</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initial Commit">
+      <created>1654797600639</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654797600639</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,9 +248,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
     <MESSAGE value="GetMapping and delete with job id" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>

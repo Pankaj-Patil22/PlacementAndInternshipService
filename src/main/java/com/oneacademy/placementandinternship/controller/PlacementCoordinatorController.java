@@ -1,6 +1,7 @@
 package com.oneacademy.placementandinternship.controller;
 
 import com.oneacademy.placementandinternship.entity.CompanyEntity;
+import com.oneacademy.placementandinternship.entity.PlacedStudentsEntity;
 import com.oneacademy.placementandinternship.model.CompanyModel;
 import com.oneacademy.placementandinternship.service.PlacementService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +31,7 @@ public class PlacementCoordinatorController {
     }
 
     @DeleteMapping("/delete-placement/{jobId}")
-    public String deletePlacement(@PathVariable("jobId") long jobId)
+    public String deletePlacement(@PathVariable("jobId") Long jobId)
     {
         try {
             CompanyEntity companyEntity=placementService.deletePlacement(jobId);
@@ -48,4 +49,11 @@ public class PlacementCoordinatorController {
     {
         return placementService.getAllPlacements();
     }
+
+    @GetMapping("/all-placed-students")
+    public List<PlacedStudentsEntity> getAllPlacedStudents()
+    {
+        return placementService.getAllPlacedStudents();
+    }
+
 }
