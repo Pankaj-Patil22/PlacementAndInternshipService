@@ -1,10 +1,12 @@
 package com.oneacademy.placementandinternship.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;
-import org.hibernate.annotations.GenerationTime;
-import org.hibernate.annotations.NaturalId;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
 @NoArgsConstructor
@@ -13,6 +15,9 @@ import java.util.concurrent.atomic.AtomicLong;
 @Entity
 @Getter
 @Setter
+@EqualsAndHashCode(exclude = { "applicationEntities"}) // This,
+@ToString(exclude = { "applicationEntities"}) // and this
+
 public class CompanyEntity {
 
     @Id
@@ -30,6 +35,23 @@ public class CompanyEntity {
     private String jobDescription;
     @Column(nullable = false)
     private String requirements;
+    @Column(nullable = false)
+    private double percentage;
+
+    private boolean aptitudeTest;
+    private boolean technicalTest;
+    private boolean codingTest;
+    private boolean groupDiscussion;
+    private boolean technicalInterview;
+    private boolean hrInterview;
+    private boolean directorInterview;
+//    private Date creationTime;
+//    private Date expirationTime;
+    private boolean status;// if company is no longer recruiting then this is set to false
+    @JsonIgnoreProperties("companyEntity")
+    @OneToMany(mappedBy = "companyEntity", orphanRemoval = true,fetch = FetchType.LAZY)
+    @JsonIgnore
+    private List<ApplicationEntity> applicationEntities = new ArrayList<>();
 
     private final static AtomicLong jobIdCounter = new AtomicLong(System.nanoTime());// used for auto generating values
 
@@ -38,3 +60,4 @@ public class CompanyEntity {
         this.jobId = jobIdCounter.incrementAndGet();
     }
 }
+

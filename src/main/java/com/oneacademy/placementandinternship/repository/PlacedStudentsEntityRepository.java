@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface PlacedStudentsEntityRepository extends JpaRepository<PlacedStudentsEntity, Long> {
+    boolean existsByStudentIdAndJobId(long studentId, long jobId);
     boolean existsByStudentId(long studentId);
 
     PlacedStudentsEntity findByStudentId(long studentId);
